@@ -8,52 +8,12 @@
 
 | # | Proyecto | Área |
 |---|---|---|
-| 1 | Informe Pericial — Caso atentado político | Informe pericial forense |
-| 2 | Script de fuerza bruta sobre ZIP | Scripting / ataque por diccionario |
-| 3 | Proyecto Final AFI — Volcado RAM y clonación de disco | Forense avanzado |
+| 1 | Script de fuerza bruta sobre ZIP | Scripting / ataque por diccionario |
+| 2 | Proyecto Final AFI — Volcado RAM y clonación de disco | Forense avanzado |
 
 ---
 
-## ⚖️ 3. Informe Pericial — Caso de sospecha de atentado contra un político
-`Código: INF-2025-001 · Fecha: 10/03/2025`
-
-Informe pericial forense elaborado siguiendo los estándares **UNE 197010:2015** y **UNE 71506:2013**, dirigido al Juzgado de Instrucción Nº 5 de Dénia (Diligencias Previas 123/2025).
-
-**Hallazgos principales:**
-
-| Pregunta | Hallazgo |
-|---|---|
-| Usuario del equipo | `Pacopepe` (OS Accounts de Autopsy) |
-| Objetivo del atentado | Feijoo y Alfonso Rueda |
-| Lugar planeado | Palacio de la Moncloa, Madrid |
-| Alojamientos investigados | Hostal Condestable, Hostal Alaska, Hotel Riu Plaza España |
-| Motivación ideológica | Canal de YouTube *«los minutos del odio»* |
-| Recurso técnico | *El libro de cocina del anarquista* — descargado desde pdfcookie.com |
-| Armerías visitadas | Armería Estradense y Armería Barreiro (con precios anotados) |
-| Metadatos EXIF | 3 imágenes encontradas, sin relevancia para el caso |
-
-**Cronología del caso:**
-```
-05/04/2022 14:26 → Creación del usuario "Pacopepe"
-26/04/2022 00:04 → Visualización de "los minutos del odio" en YouTube
-29/04/2022 17:55 → Búsquedas de Feijoo y Alfonso Rueda
-06/05/2022 19:12 → Búsqueda de hostales en Madrid
-06/05/2022 19:13 → Búsqueda del Palacio de la Moncloa
-     Mayo 2022   → Visitas a armerías gallegas
-18/05/2022 19:17 → Descarga de "El libro de cocina del anarquista"
-```
-
-**Integridad de la evidencia:**
-```
-SHA256: 8edd15a99a39f50c6212a9dff47c03a7211b6d12a4377cae27a5bb6ea6c8eebe
-MD5:    737def84cf9a77415a613a8a162ce8ae
-```
-
-**Herramientas:** Autopsy, DB Browser for SQLite, sha256sum/md5sum
-
----
-
-## 🔐 10. Script de fuerza bruta sobre fichero ZIP
+## 🔐 1. Script de fuerza bruta sobre fichero ZIP
 
 Script Python que realiza un ataque de diccionario sobre archivos ZIP protegidos con contraseña.
 
@@ -96,7 +56,7 @@ python3 scriptfuerzabruta.py carpeta.zip diccionario.txt
 
 ---
 
-## 💻 11. Proyecto Final AFI — Volcado de RAM y clonación de disco
+## 💻 2. Proyecto Final AFI — Volcado de RAM y clonación de disco
 
 Simulación de un ataque informático completo en laboratorio controlado (VirtualBox) con posterior análisis forense mediante Volatility 3 y Autopsy.
 
@@ -143,7 +103,7 @@ Disco — Windows30.raw
 
 ---
 
-## 🛠️ Herramientas utilizadas
+## 🛠️ Herramientas utilizadas en el curso
 
 | Herramienta | Uso principal |
 |---|---|
