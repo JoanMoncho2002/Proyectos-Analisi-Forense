@@ -1,6 +1,6 @@
 # 🔍 Análisis Forense Digital — Especialización en Ciberseguridad
 
-> Colección completa de prácticas y proyectos de **informática forense** desarrollados durante la asignatura de Análisis Forense en la especialización de Ciberseguridad. Cubre análisis de disco, volcados de RAM, forense en Linux, forense móvil, análisis en la nube, scripts de ataque y elaboración de informes periciales.
+> Colección de prácticas y proyectos de **informática forense** desarrollados durante la asignatura de Análisis Forense en la especialización de Ciberseguridad. Cubre análisis de disco, volcados de RAM y scripts de ataque.
 
 ---
 
